@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color:#a4e4b5 ;
+            height: 100vh;
+            display: grid;
+            place-items: center;
+        }
+        form{
+            padding: 20px;
+            background-color:#daf4df ;
+            border-radius:15px;
+            width: 90%;
+            max-width: 700px;
+        }
+        flex{
+            display: flex;
+            gap:15px;
+        }
+        form-input{
+            display: flex;
+            flex-direction; column;
+            flex: 1;
+        }
+    </style>
+</head>
+<body>
+    <form action="line.php " method="post">
+        <h1> contact us</h1>
+        <div class="flex" >
+            <div class="form input">
+                <label for=""> first name *</label>
+                <input type="text" placeholder=" enter your first name">
+            </div>
+           <div class=" form-input">
+            <label for=""> last name *</label>
+            <input type="text" placeholder=" enter your last name">
+
+           </div>
+
+        </div>
+
+    </form>
+   
+</body>
+</html>
