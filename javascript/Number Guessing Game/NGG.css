@@ -1,0 +1,72 @@
+body{
+    min-height: 800px;
+    border: 8px solid rgb(240, 67, 67);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-content: center;
+    
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: plum;
+    color: aliceblue;
+    font-size: 40pt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 1;
+    /* flex-grow: 0; */
+    align-self: flex-end;
+
+}
+
+.box1{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    color: white;
+    font-size: 30pt;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-self: flex-start;
+}
+
+.box2{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    color: azure;
+    font-size: 30pt;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-self:start;
+    display: flex;
+    
+    
+}
+
+.box3{
+    height:100px ;
+    width: 200px;
+    font-size: 40pt;
+    background-color: plum;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+    display: flex;
+    color: aliceblue;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    
+}

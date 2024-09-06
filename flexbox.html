@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        [meme]{
+            background-color: rgb(226, 174, 174);
+            height: 100px;
+        }
+            
+        
+        .box{
+            width:100px;
+            height: 100px;
+            background-color: blueviolet;
+            color: aliceblue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            /* flex:1; */
+
+        }
+        .box:nth-child(1){
+            background-color: green ;
+        }
+        .box:nth-child(2){
+            background-color: rgb(104, 170, 104) ;
+        }
+        .box:nth-child(3){
+            background-color: rgb(234, 59, 59) ;
+            /* flex-basis: 50%; */
+        }
+        .box:nth-child(4){
+            background-color: blue ;
+        }
+        .box:nth-child(5){
+            background-color: pink;
+        }
+        .box:nth-child(6){
+            background-color: yellow ;
+        }
+        .container{
+            display:flex;
+            /* gap: 10px; */
+            /* background-color: rgb(203, 203, 213); */
+            flex-direction: row;
+            border: 1px solid blue;
+            /* justify-content: space-between; */
+            height: 450px; 
+            /* align-items: center; */
+            justify-content:center;
+            align-items: center;
+            align-items: start;
+            justify-content: start;
+            height: 600PX;
+            flex-wrap: wrap;
+        }
+        
+       
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+        <div class="box">6</div>
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+        <div class="box">6</div>
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+        <div class="box">6</div>
+    </div>
+    <div class="box"></div>
+</body>
+</html>
